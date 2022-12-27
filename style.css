@@ -13,6 +13,7 @@ body{
     height:700px;
     width:100%;
     padding-top: 150px;
+    z-index: 6;
 }
 h1 {
     font-size:40px;
@@ -46,7 +47,62 @@ p {
     margin-top:-15px;
     
 }
+/*
 .menu{
     list-style: none;
     position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.item{
+    font-size:25px;
+    float: left;
+    padding-left: 10px;
+
+}
+
+*/
+.menu{
+background-color:#063970;
+    color:white;
+    position:fixed;
+    top:0;
+    width:100%;
+        z-index: 10;
+    margin-top:0px;
+height:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.item{
+    font-size:40px;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 23px;
+}
+.item:hover {
+font-size:45px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+.art{
+list-style-position: inside;
+    font-size: 25px;
+}
+#contacts{
+background-color:yellow;
+    padding-bottom: 15px;
+}
+#contacts a{
+    color:black;
+}
+#contacts h3{
+    display:inline;
 }
